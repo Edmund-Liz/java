@@ -9,9 +9,9 @@ class Employee {
     private int salary;
 
 
-    public Employee(String a, int b, int year, int month, int day) {
-        name = a;
-        salary = b;
+    public Employee(String aName, int aSalary, int year, int month, int day) {
+        name = aName;
+        salary = aSalary;
         hireDay = LocalDate.of(year, month, day);
         Id = NextId++;
     }

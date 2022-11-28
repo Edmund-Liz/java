@@ -1,5 +1,4 @@
 import javax.xml.namespace.QName;
-
 class Person {
     private String name;
     private int age;
