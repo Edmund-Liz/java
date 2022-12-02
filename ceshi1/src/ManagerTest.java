@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class Manager extends Employee {//Employee类已在EmployeeTest.java声明
     private int bonus;
 
@@ -13,6 +15,11 @@ class Manager extends Employee {//Employee类已在EmployeeTest.java声明
         int baseSalary = super.getSalary();
         return baseSalary + bonus;
     }
+    public String toString(){
+        return super.toString()
+                +"[bonus="+bonus
+                +"]";
+    }
 }
 
 
@@ -26,5 +33,6 @@ public class ManagerTest {
         staff[2] = new Employee("Tony", 4000, 1990, 3, 15);
         for (Employee e : staff)
             System.out.println(e.getName() + " " + e.getSalary());
+        System.out.println(staff[0]);
     }
 }
