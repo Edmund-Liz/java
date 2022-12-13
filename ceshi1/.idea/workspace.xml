@@ -14,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -46,23 +47,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
-  <component name="RunManager" selected="应用程序.InterfaceTest">
-    <configuration name="ClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ClassTest" />
-      <module name="Java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="应用程序.StringComparatorTest">
     <configuration name="EnumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EnumTest" />
-      <module name="Java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GoodCopyOf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GoodCopyOf" />
       <module name="Java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,21 +76,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringComparatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringComparatorTest" />
+      <module name="Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimePrinterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TimePrinterTest" />
+      <module name="Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="应用程序.PersonTest" />
+      <item itemvalue="应用程序.StringComparatorTest" />
+      <item itemvalue="应用程序.TimePrinterTest" />
       <item itemvalue="应用程序.InterfaceTest" />
-      <item itemvalue="应用程序.GoodCopyOf" />
       <item itemvalue="应用程序.MethodPointer" />
-      <item itemvalue="应用程序.ClassTest" />
       <item itemvalue="应用程序.EnumTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.StringComparatorTest" />
+        <item itemvalue="应用程序.TimePrinterTest" />
+        <item itemvalue="应用程序.EnumTest" />
         <item itemvalue="应用程序.InterfaceTest" />
         <item itemvalue="应用程序.MethodPointer" />
-        <item itemvalue="应用程序.GoodCopyOf" />
-        <item itemvalue="应用程序.ClassTest" />
-        <item itemvalue="应用程序.EnumTest" />
       </list>
     </recent_temporary>
   </component>

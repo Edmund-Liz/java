@@ -1,4 +1,5 @@
 import java.util.Arrays;
+
 class Employee1 implements Comparable<Employee1> {
     private String name;
     private int salary;
@@ -13,7 +14,7 @@ class Employee1 implements Comparable<Employee1> {
         return name;
     }
     public int compareTo(Employee1 other){
-        return Double.compare(other.getSalary(),this.getSalary());
+        return Double.compare(other.getSalary(),this.getSalary());//实现接口方法（此处为重写默认实现）
     }
 
 }
