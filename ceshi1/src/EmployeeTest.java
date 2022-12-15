@@ -1,7 +1,7 @@
 import java.time.LocalDate;
 import java.util.Scanner;
 
-class Employee {
+class Employee implements Cloneable {
     private static int NextId = 1;
     private final String name;
     private final LocalDate hireDay;
@@ -40,6 +40,10 @@ class Employee {
         salary += raise;
     }
 
+    public Employee clone()throws CloneNotSupportedException
+    {
+        return  (Employee) super.clone();
+    }
 }
 
 public class EmployeeTest {
